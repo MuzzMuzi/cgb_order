@@ -46,6 +46,20 @@ export const asyncRouterMap = [
         component: _import('orderTime/orderTime'),
         meta: {title: '订单时间', icon: 'example'},
         menu: 'orderTime'
+      },
+      {
+        path: 'order',
+        name: '订单',
+        component: _import('order/order'),
+        meta: {title: '订单', icon: 'example'},
+        menu: 'order'
+      },
+      {
+        path: 'deliveryman',
+        name: '配送员',
+        component: _import('deliveryman/deliveryman'),
+        meta: {title: '我的信息', icon: 'example'},
+        menu: 'deliveryman'
       }
     ]
   },
